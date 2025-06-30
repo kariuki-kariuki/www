@@ -1,0 +1,25 @@
+const languagesAndFrameworks = {
+  JavaScript: { name: "JavaScript", color: "#F7DF1E" },
+  TypeScript: { name: "TypeScript", color: "#3178C6" },
+  Python: { name: "Python", color: "#3776AB" },
+  Ruby: { name: "Ruby", color: "#CC342D" },
+  Java: { name: "Java", color: "#007396" },
+  CPlusPlus: { name: "C++", color: "#00599C" },
+  React: { name: "React", color: "#61DAFB" },
+  NextJS: { name: "Next.js", color: "#000000" },
+  Mantine: { name: "Mantine", color: "#339AF0" },
+  Tailwind: { name: "Tailwind", color: "#38B2AC" },
+  NestJS: { name: "NestJS", color: "#E0234E" },
+  Express: { name: "Express", color: "#000000" },
+  Redis: { name: "Redis", color: "#DC382D" },
+  NodeJS: { name: "Node.js", color: "#43853D" },
+  Microservices: { name: "Microservices", color: "#FFA500" },
+  SQL: { name: "SQL", color: "#336791" },
+  MongoDB: { name: "MongoDB", color: "#47A248" },
+  GraphQL: { name: "GraphQL", color: "#E10098" },
+  Docker: { name: "Docker", color: "#2496ED" },
+  Kubernetes: { name: "Kubernetes", color: "#326CE5" },
+  AWS: { name: "AWS", color: "#FF9900" },
+};
+
+export default languagesAndFrameworks
