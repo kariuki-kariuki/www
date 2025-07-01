@@ -35,11 +35,11 @@ const projects = [
     imageUrl: '/projects/dashboard.png'
   },
   {
-    name: 'Nexcom2',
-    url: 'https://nexcom.site/dashboard',
-    description: 'High perfomant Super App',
-    github: 'https://github.com/kariuki-kariuki/nexcom-web',
-    imageUrl: '/projects/nexcom.png'
+    name: 'Portfolio',
+    url: 'https://kariuki-portfolio.vercel.app/',
+    description: 'My Beautiful Portfolio',
+    github: 'https://github.com/kariuki-kariuki/www',
+    imageUrl: '/projects/portfolio.png'
   },
 
 ]
