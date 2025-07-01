@@ -7,10 +7,7 @@ import '@mantine/carousel/styles.css';
 import '@mantine/charts/styles.css';
 import siteMetaData from "@/common/sitemetadata";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+
 
 const poppins = Poppins({
   variable: "--font-poppins",
