@@ -14,16 +14,22 @@ const About = () => {
       <section className='container mx-auto lg:flex justify-center items-center gap-5'>
         <div className='flex justify-center'>
           <Card shadow='xl' radius="xl" withBorder>
-            <Avatar src="/emkay.png" radius="lg" alt="Vercel Logo" w={{ base: '100%', sm: 400}} h="auto" name='Martin Kariuki' />
+            <Avatar src="/emkay.png" radius="lg" alt="Vercel Logo" w={{ base: '100%', sm: 400 }} h="auto" name='Martin Kariuki' />
           </Card>
         </div>
         <div className='mt-5 lg:w-1/2 '>
           <p className='text-2xl text-gray-700'>
             Martin has been a great computer science enthusiast since he first interacted with computer games and WeChat. He knew where the world was heading. It was like looking into the future. Ever since then, Martin decided he must take part in the great revolution. He is a passionate developer who is always seeking new challenges to learn and improve.
           </p>
+          <div className='flex gap-2 justify-start items-center text-xl m-5'>
+            <i className='h-[1px] flex-1 bg-orange-600'></i>
+            <p>mkmartinoes@gmail.com</p>
+            <i className='h-[1px] flex-1 bg-orange-600'></i>
+          </div>
+
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   )
 }
 
