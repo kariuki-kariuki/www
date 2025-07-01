@@ -29,14 +29,14 @@ const projects = [
   },
   {
     name: 'Nexcom Dashboard',
-    url: 'https://nexcom.site/',
+    url: 'https://nexcom.site/dashboard',
     description: 'High perfomant Super Dashboard',
     github: 'https://github.com/kariuki-kariuki/nexcom-web',
     imageUrl: '/projects/dashboard.png'
   },
   {
     name: 'Nexcom2',
-    url: 'https://nexcom.site/',
+    url: 'https://nexcom.site/dashboard',
     description: 'High perfomant Super App',
     github: 'https://github.com/kariuki-kariuki/nexcom-web',
     imageUrl: '/projects/nexcom.png'
@@ -55,7 +55,7 @@ const Projects = () => {
       <div className='py-24 container mx-auto'>
         <div className='flex gap-2 justify-start items-center'>
           <i className='w-20 h-1 bg-orange-600'></i>
-          <h1 className='text-2xl lg:text-4xl font-bold text-black'>Projects</h1>
+          <h1 className='text-2xl lg:text-4xl font-bold text-black'>Portfolio</h1>
         </div>
         <p className='text-2xl text-gray-600'>Some Projects I have worked on</p>
       </div>

@@ -14,7 +14,7 @@ interface ProjecytProps {
 }
 const ProjectCard = ({ project }: IProps) => {
   return (
-    <Card shadow='xl' bg="gray.0" radius="lg" w="100%" withBorder>
+    <Card shadow='xl' radius="lg" w="100%" withBorder>
       <Avatar size="xl" radius="lg" h="70%" bd={1} w="100%" src={project.imageUrl} alt={project.name} />
       <CardSection px="md" pb="xl">
         <p className='font-bold text-2xl'>{project.name}</p>

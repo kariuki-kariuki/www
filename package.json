@@ -17,6 +17,7 @@
     "@mantine/modals": "^8.1.2",
     "@mantine/notifications": "^8.1.2",
     "@mantine/nprogress": "^8.1.2",
+    "@next/bundle-analyzer": "^15.3.4",
     "@tabler/icons-react": "^3.34.0",
     "@tailwindcss/typography": "^0.5.16",
     "embla-carousel": "^8.6.0",

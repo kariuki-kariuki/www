@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='h-[100px] flex flex-col justify-center bg-[#FFFDF6] sticky border-b border-gray-300'>
+    <div className='h-[100px] flex flex-col justify-center shadow-lg  sticky' style={{ backgroundColor: 'rgba(255, 255, 255, .7)'}}>
       <div className='flex justify-between container mx-auto'>
         <Avatar src="/logo.png" alt="Vercel Logo" name='Martin Kariuki' />
         <Group>
