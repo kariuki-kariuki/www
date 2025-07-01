@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='min-h-screen bg-[#FFFDF6] p-5'>
+    <div className='min-h-screen bg-[#FFFDF6] p-5' id='about'>
       <div className='py-16 container mx-auto'>
         <div className='flex gap-2 justify-start items-center'>
           <i className='w-20 h-1 bg-orange-600'></i>

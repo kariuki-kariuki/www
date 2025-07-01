@@ -18,10 +18,10 @@ const Hero = () => {
               <Button bg="orange.6" my="lg" className='font-bold' size="lg" radius="xl">Get in Touch</Button>
             </div>
             <div className='flex justify-center items-center flex-1'>
-              <div className='flex flex-col justify-center items-center group hover:cursor-pointer transition-all '>
+              <a href='#about' className='flex flex-col justify-center items-center group hover:cursor-pointer transition-all '>
                 <IconArrowDownDashed size={59} className='my-5 group-hover:text-orange-600 group-hover:scale-110 duration-1000'/>
                 <p className='text-2xl group-hover:text-orange-600 group-hover:cursor-pointer group-hover:scale-110 duration-1000'>Learn More</p>
-              </div>
+              </a>
             </div>
           </div>
 

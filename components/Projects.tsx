@@ -51,7 +51,7 @@ const Projects = () => {
     </CarouselSlide>
   ))
   return (
-    <div className='min-h-screen flex flex-col  p-5'>
+    <div className='min-h-screen flex flex-col p-5' id="portfolio">
       <div className='py-24 container mx-auto'>
         <div className='flex gap-2 justify-start items-center'>
           <i className='w-20 h-1 bg-orange-600'></i>
