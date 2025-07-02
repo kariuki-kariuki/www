@@ -15,7 +15,7 @@ const Hero = () => {
                 <h1 className='text-5xl font-extrabold my-5'>Hi, my <br /> name is Martin</h1>
                 <p className='text-2xl font-light my-2'>I love creating beautiful products.</p>
               </div>
-              <Button bg="orange.6" my="lg" className='font-bold' size="lg" radius="xl">Get in Touch</Button>
+              <Button component='a' href='#contact' bg="orange.6" my="lg" className='font-bold' size="lg" radius="xl">Get in Touch</Button>
             </div>
             <div className='flex justify-center items-center flex-1'>
               <a href='#about' className='flex flex-col justify-center items-center group hover:cursor-pointer transition-all '>

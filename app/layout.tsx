@@ -7,8 +7,6 @@ import '@mantine/carousel/styles.css';
 import '@mantine/charts/styles.css';
 import siteMetaData from "@/common/sitemetadata";
 
-
-
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],

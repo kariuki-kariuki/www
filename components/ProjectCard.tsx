@@ -9,7 +9,7 @@ interface ProjecytProps {
   name: string,
   description: string,
   url: string,
-  gitUrl?: string,
+  github: string,
   imageUrl: string
 }
 const ProjectCard = ({ project }: IProps) => {
@@ -22,7 +22,7 @@ const ProjectCard = ({ project }: IProps) => {
       </CardSection>
       <CardSection px="md" py='md'>
         <Group justify='space-between' wrap='nowrap'>
-          <Button size="lg" variant='subtle' radius="md"><IconCode size={36}/></Button>
+          <Button size="lg" component='a' href={project.github} target='_blank' variant='subtle' radius="md"><IconCode size={36}/></Button>
           <Button component='a' size="lg" radius="lg" fullWidth href={project.url} target='_blank' color="orange.6" leftSection={<IconEye />}>Preview</Button>
         </Group>
       </CardSection>
